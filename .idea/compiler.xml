@@ -10,12 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tech-news-java-api" target="1.8" />
+      <module name="tech-news-java-api" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="tech-news-java-api" options="-parameters" />
+      <module name="tech-news-java-api" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
